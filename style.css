@@ -1,0 +1,48 @@
+body {
+    background-color: #25282d;
+    box-sizing: border-box;
+}
+
+.cabeçalho {
+    display: flex;
+    color: #f8fafc;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 5px;
+}
+
+.logo {
+    display: block;
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+    object-fit: contain;
+    margin: 0;
+   
+}
+
+.menu {
+    display: flex;
+    gap: 25px;
+    font-size: 18px;
+    text-decoration: none;
+    
+}
+
+.sobre, .contato {
+    align-items: center;
+    color: #f8fafc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.btnCadastro, .btnLogin {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0f6b57;
+    color: #f8fafc;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
